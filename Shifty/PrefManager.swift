@@ -15,7 +15,6 @@ enum Keys {
     static let isDarkModeSyncEnabled = "isDarkModeSyncEnabled"
     static let isWebsiteControlEnabled = "isWebsiteControlEnabled"
     static let trueToneControl = "trueToneControl"
-    static let analyticsPermission = "fabricCrashlyticsPermission"
     static let disabledApps = "disabledApps"
     static let browserRules = "browserRules"
 
@@ -54,7 +53,6 @@ class PrefManager {
             Keys.isDarkModeSyncEnabled: NSNumber(value: false),
             Keys.isWebsiteControlEnabled: NSNumber(value: false),
             Keys.trueToneControl: NSNumber(value: false),
-            Keys.analyticsPermission: NSNumber(value: false),
             Keys.disabledApps: NSData(),
             Keys.browserRules: NSData(),
             Keys.hasSetupWindowShown: NSNumber(value: false)
@@ -86,7 +84,6 @@ class PrefManager {
         userDefaults.removeObject(forKey: Keys.disableCustomShortcut)
         userDefaults.removeObject(forKey: Keys.toggleTrueToneShortcut)
         userDefaults.removeObject(forKey: Keys.toggleDarkModeShortcut)
-        userDefaults.removeObject(forKey: Keys.analyticsPermission)
         userDefaults.removeObject(forKey: Keys.hasSetupWindowShown)
         
         synchronize()

@@ -48,11 +48,7 @@ enum Event {
 extension Event {
 
     func record() {
-        if UserDefaults.standard.bool(forKey: Keys.analyticsPermission) {
-            #if !DEBUG
-            MSAnalytics.trackEvent(eventName, withProperties: customAttributes)
-            #endif
-        }
+        // do nothing
     }
 
     private var eventName: String {

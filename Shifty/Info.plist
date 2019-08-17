@@ -22,20 +22,6 @@
 	<string>1.1.2</string>
 	<key>CFBundleVersion</key>
 	<string>63</string>
-	<key>Fabric</key>
-	<dict>
-		<key>APIKey</key>
-		<string>57ca2a767468cd93801f5cea46dd15311882575b</string>
-		<key>Kits</key>
-		<array>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>Crashlytics</string>
-			</dict>
-		</array>
-	</dict>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSHasLocalizedDisplayName</key>
@@ -53,7 +39,7 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUEnableAutomaticChecks</key>
-	<true/>
+	<false/>
 	<key>SUFeedURL</key>
 	<string>https://shifty.natethompson.io/ShiftyAppcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>

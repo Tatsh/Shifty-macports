@@ -9,7 +9,6 @@
 import Cocoa
 import ServiceManagement
 import AppCenter
-import AppCenterAnalytics
 import AppCenterCrashes
 import LetsMove
 import MASPreferences_Shifty
@@ -38,23 +37,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var setupWindowController: NSWindowController!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        #if !DEBUG
-        PFMoveToApplicationsFolderIfNecessary()
-        #endif
-        
         UserDefaults.standard.register(defaults: ["NSApplicationCrashOnExceptions": true])
         
         let userDefaults = UserDefaults.standard
-        
-        if userDefaults.bool(forKey: Keys.analyticsPermission) {
-            #if !DEBUG
-            MSAppCenter.start("a0d14d8b-fd4d-4512-8901-d5cfe5249548", withServices:[MSAnalytics.self, MSCrashes.self])
-            #endif
-        } else if userDefaults.bool(forKey: Keys.hasSetupWindowShown)
-            && userDefaults.value(forKey: Keys.lastInstalledShiftyVersion) == nil {
-            // If updated from beta version
-            userDefaults.set(true, forKey: Keys.analyticsPermission)
-        }
         
         // Initialize Sparkle
         SUUpdater.shared()

@@ -67,7 +67,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="6jJ-c5-oIY">
                                 <rect key="frame" x="122" y="315" width="232" height="17"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Shifty is now running in the menu bar." id="WcY-uu-0Eu">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -75,7 +75,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-Qb-ijW">
                                 <rect key="frame" x="18" y="71" width="315" height="17"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Click Next to continue setup. It'll just take a minute." id="J4B-E9-KIZ">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -87,7 +87,7 @@
                                 </constraints>
                                 <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TnF-o1-sgY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -97,7 +97,7 @@ DQ
                                 </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="jn8-mZ-J20">
-                                <rect key="frame" x="33" y="144" width="410" height="156"/>
+                                <rect key="frame" x="33" y="133" width="410" height="167"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="410" id="kBb-Cu-wf7"/>
                                 </constraints>
@@ -148,7 +148,7 @@ DQ
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="500" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sJ8-k4-SBk">
                                 <rect key="frame" x="18" y="372" width="439" height="34"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Would you like to let Shifty automatically disable Night Shift when you visit certain websites?" id="hcb-Lm-Zmy">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -168,7 +168,7 @@ DQ
                                 </constraints>
                                 <buttonCell key="cell" type="push" title="Yes" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hNr-Ak-j8a">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -181,7 +181,7 @@ DQ
                                 <rect key="frame" x="288" y="13" width="91" height="32"/>
                                 <buttonCell key="cell" type="push" title="Not now" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="y40-o0-ueU">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="closeButtonClicked:" target="NqW-NI-dEn" id="xEh-sp-RqX"/>
@@ -194,7 +194,7 @@ DQ
                                 </constraints>
                                 <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSLeftFacingTriangleTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yYu-Hy-TQe">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent"></string>
                                 </buttonCell>
                                 <connections>
@@ -207,7 +207,7 @@ DQ
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fxw-jc-XI4">
                                         <rect key="frame" x="-2" y="100" width="165" height="17"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Website Shifting supports:" id="bNv-dv-CBp">
-                                            <font key="font" metaFont="system"/>
+                                            <font key="font" metaFont="label" size="13"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -229,7 +229,7 @@ DQ
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WWn-Pc-9SO">
                                                         <rect key="frame" x="26" y="2" width="122" height="17"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Safari" id="4ft-mI-wIN">
-                                                            <font key="font" metaFont="system"/>
+                                                            <font key="font" metaFont="label" size="13"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -261,7 +261,7 @@ DQ
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MmC-i0-VFp">
                                                         <rect key="frame" x="26" y="2" width="122" height="17"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Chrome" id="shv-ze-VLi">
-                                                            <font key="font" metaFont="system"/>
+                                                            <font key="font" metaFont="label" size="13"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -293,7 +293,7 @@ DQ
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="p0g-Ne-ZzW">
                                                         <rect key="frame" x="26" y="2" width="122" height="17"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Opera" id="1Y8-bn-63E">
-                                                            <font key="font" metaFont="system"/>
+                                                            <font key="font" metaFont="label" size="13"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -325,7 +325,7 @@ DQ
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="df5-Zs-JT5">
                                                         <rect key="frame" x="26" y="2" width="122" height="17"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Vivaldi" id="cXQ-bL-QlF">
-                                                            <font key="font" metaFont="system"/>
+                                                            <font key="font" metaFont="label" size="13"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -424,7 +424,7 @@ DQ
                                 <rect key="frame" x="263" y="13" width="198" height="32"/>
                                 <buttonCell key="cell" type="push" title="Open System Preferences" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lqU-rF-E5t">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -440,7 +440,7 @@ DQ
                                 </constraints>
                                 <buttonCell key="cell" type="push" title="Skip" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0wv-vs-acj">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent"></string>
                                 </buttonCell>
                                 <connections>
@@ -451,7 +451,7 @@ DQ
                                 <rect key="frame" x="62" y="13" width="32" height="31"/>
                                 <buttonCell key="cell" type="round" title="?" bezelStyle="circular" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hnI-7M-qBT">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="accessibilityHelp:" target="a2t-LO-CJe" id="ihi-P6-6NQ"/>
@@ -464,7 +464,7 @@ DQ
                                 </constraints>
                                 <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSGoLeftTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Uyi-J6-pvR">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent"></string>
                                 </buttonCell>
                                 <connections>
@@ -514,7 +514,7 @@ DQ
                                 </constraints>
                                 <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s21-gu-5OC">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -530,7 +530,7 @@ DQ
                                 </constraints>
                                 <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSGoLeftTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dJy-3p-fnG">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="label" size="13"/>
                                     <string key="keyEquivalent"></string>
                                 </buttonCell>
                                 <connections>
@@ -562,7 +562,7 @@ DQ
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qrq-NZ-lPw">
                                                 <rect key="frame" x="134" y="0.0" width="168" height="17"/>
                                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Thanks for installing Shifty." id="E7p-5d-X2C">
-                                                    <font key="font" metaFont="system"/>
+                                                    <font key="font" metaFont="label" size="13"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -589,49 +589,18 @@ DQ
                                     <constraint firstAttribute="trailing" secondItem="8NH-cV-yLc" secondAttribute="trailing" id="wYc-PN-18G"/>
                                 </constraints>
                             </customView>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RjY-FG-DwV">
-                                <rect key="frame" x="18" y="85" width="374" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="410" id="Sdu-dz-hVT"/>
-                                </constraints>
-                                <buttonCell key="cell" type="check" title="Share anonymous crash data and analytics with developer" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="fkJ-8D-Xr2">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xvQ-7Q-Jp7">
-                                <rect key="frame" x="33" y="55" width="100" height="27"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="xRu-v5-MUf"/>
-                                </constraints>
-                                <buttonCell key="cell" type="push" title="More info..." bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="njq-rZ-B3n">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="smallSystem"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="analyticsDetailClicked:" target="j1O-j4-Iou" id="HdD-q6-FZd"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="xvQ-7Q-Jp7" firstAttribute="top" secondItem="RjY-FG-DwV" secondAttribute="bottom" constant="8" id="AP9-2C-HBw"/>
                             <constraint firstItem="22i-XU-Ifo" firstAttribute="leading" secondItem="lIO-UQ-KPf" secondAttribute="leading" constant="20" id="EdZ-qf-UaG"/>
-                            <constraint firstItem="RjY-FG-DwV" firstAttribute="leading" secondItem="lIO-UQ-KPf" secondAttribute="leading" constant="20" id="GHG-PW-5Dd"/>
                             <constraint firstAttribute="trailing" secondItem="BGI-WD-n0c" secondAttribute="trailing" constant="20" id="HeB-OH-Ew9"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RjY-FG-DwV" secondAttribute="trailing" constant="20" id="Hza-KA-xkm"/>
-                            <constraint firstItem="xvQ-7Q-Jp7" firstAttribute="leading" secondItem="RjY-FG-DwV" secondAttribute="leading" constant="18" id="Khi-5p-Usx"/>
                             <constraint firstItem="BGI-WD-n0c" firstAttribute="leading" secondItem="lIO-UQ-KPf" secondAttribute="leading" constant="20" id="Mr1-ue-C1g"/>
+                            <constraint firstItem="r6Q-C0-71a" firstAttribute="top" secondItem="BGI-WD-n0c" secondAttribute="bottom" constant="80" id="Qwh-6M-jxL"/>
                             <constraint firstAttribute="bottom" secondItem="r6Q-C0-71a" secondAttribute="bottom" constant="20" id="d5v-PD-J6s"/>
                             <constraint firstItem="BGI-WD-n0c" firstAttribute="top" secondItem="lIO-UQ-KPf" secondAttribute="top" id="hvF-Rj-WOz"/>
-                            <constraint firstItem="RjY-FG-DwV" firstAttribute="top" secondItem="BGI-WD-n0c" secondAttribute="bottom" constant="20" id="ocT-yt-fjv"/>
                             <constraint firstAttribute="bottom" secondItem="22i-XU-Ifo" secondAttribute="bottom" constant="20" id="vYO-58-ogE"/>
                             <constraint firstAttribute="trailing" secondItem="r6Q-C0-71a" secondAttribute="trailing" constant="20" id="voS-U5-Y7n"/>
-                            <constraint firstItem="22i-XU-Ifo" firstAttribute="top" secondItem="xvQ-7Q-Jp7" secondAttribute="bottom" constant="20" id="xV4-Fn-Ziu"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="analyticsPermissionButton" destination="RjY-FG-DwV" id="3gO-e7-d4O"/>
-                    </connections>
                 </viewController>
                 <customObject id="sJx-Mk-SiO" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <userDefaultsController representsSharedInstance="YES" id="ct8-NV-t6V"/>
@@ -651,7 +620,7 @@ DQ
         <image name="websiteShiftingScreenshot-en" width="340" height="167"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RBK-ii-duJ"/>
+        <segue reference="cdz-pS-K8F"/>
         <segue reference="OTp-Xx-YUK"/>
     </inferredMetricsTieBreakers>
 </document>
