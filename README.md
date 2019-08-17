@@ -12,7 +12,7 @@ Shifty is customizable! Make it easier to toggle Night Shift with Quick Toggle o
 
 ## System requirements
 
-* macOS 10.14 or later
+* macOS 10.12 or later
 * Your system must [support Night Shift](https://support.apple.com/en-us/HT207513#requirements)
 
 ## Building from source
@@ -31,8 +31,7 @@ xcodebuild -workspace Shifty.xcworkspace/ \
     CODE_SIGN_IDENTITY=- \
     CODE_SIGN_STYLE=Manual \
     ENABLE_HARDENED_RUNTIME=NO \
-    ARCHS=x86_64 \
-    MACOSX_DEPLOYMENT_TARGET=10.14
+    ARCHS=x86_64
 ```
 
 In one line:
