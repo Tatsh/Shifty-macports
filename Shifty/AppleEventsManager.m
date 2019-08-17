@@ -10,7 +10,6 @@
 #import <Cocoa/Cocoa.h>
 #import "AppleEventsManager.h"
 
-
 @implementation AppleEventsManager : NSObject
 
 + (PrivacyConsentState)automationConsentForBundleIdentifier:(NSString *)bundleIdentifier {
@@ -28,7 +27,7 @@
         AEDisposeDesc(&addressDesc);
         
         switch (appleScriptPermission) {
-            case errAEEventWouldRequireUserConsent:
+            case myErrAEEventWouldRequireUserConsent:
                 NSLog(@"Automation consent not yet granted for %@, would require user consent.", bundleIdentifier);
                 result = PrivacyConsentStateUndetermined;
                 break;
