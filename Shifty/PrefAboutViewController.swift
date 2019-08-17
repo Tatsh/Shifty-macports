@@ -9,8 +9,6 @@ import Cocoa
 import Sparkle
 import MASPreferences_Shifty
 
-let ShiftyUpdater = SUUpdater()
-
 @objcMembers
 class PrefAboutViewController: NSViewController, MASPreferencesViewController {
 
@@ -53,7 +51,6 @@ class PrefAboutViewController: NSViewController, MASPreferencesViewController {
     }
 
     @IBAction func checkUpdateClicked(_ sender: NSButton) {
-        ShiftyUpdater.checkForUpdates(sender)
         Event.checkForUpdatesClicked.record()
     }
 

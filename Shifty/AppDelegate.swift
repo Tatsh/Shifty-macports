@@ -41,9 +41,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         let userDefaults = UserDefaults.standard
         
-        // Initialize Sparkle
-        SUUpdater.shared()
-        
         
         let versionObject = Bundle.main.infoDictionary?["CFBundleShortVersionString"]
         userDefaults.set(versionObject as? String ?? "", forKey: Keys.lastInstalledShiftyVersion)
