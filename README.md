@@ -27,7 +27,7 @@ xcodebuild -workspace Shifty.xcworkspace/ \
     -derivedDataPath data-path \
     -configuration Release \
     install \
-    INSTALL_PATH=./test/ \
+    INSTALL_PATH=/Applications/\
     CODE_SIGN_IDENTITY=- \
     CODE_SIGN_STYLE=Manual \
     ENABLE_HARDENED_RUNTIME=NO \
