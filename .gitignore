@@ -66,6 +66,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+/data-path/
 
 # macOS specific
 .DS_Store
